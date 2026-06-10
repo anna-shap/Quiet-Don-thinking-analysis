@@ -1,0 +1,17 @@
+# extracted/curated from Alexandrovа synonym rows ("думать", "мысль" etc.)
+# keep one unit per line; program will lemmatize.
+
+размышлять
+раздумывать
+обдумывать
+рассуждать
+мыслить
+соображать
+припоминать
+вспоминать
+помнить
+уразуметь
+осознавать
+догадаться
+мысль
+мысленно

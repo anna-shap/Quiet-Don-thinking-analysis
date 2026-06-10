@@ -1,0 +1,13 @@
+﻿heading_id,line_no,char_pos_approx,heading_type,heading_text,removed_from_analysis
+1,1,0,book,Книга первая,True
+2,16,524,part,Часть первая,True
+3,1509,165406,part,Часть вторая,True
+4,3190,366314,part,Часть третья,True
+5,5398,642333,book,Книга вторая,True
+6,5400,642347,part,Часть четвертая,True
+7,7329,963743,part,Часть пятая,True
+8,9739,1310902,book,Книга третья,True
+9,9755,1311412,part,Часть шестая,True
+10,13836,2049107,book,Книга четвертая,True
+11,13838,2049124,part,Часть седьмая,True
+12,16862,2550571,part,Часть восьмая,True

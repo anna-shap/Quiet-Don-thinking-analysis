@@ -1,0 +1,29 @@
+{
+  "run_datetime": "2026-05-27T19:57:50",
+  "project_name": "TD-MindMarkers",
+  "analysis_profile": "DIPLOMA_STRICT",
+  "corpus_path": "data/corpus/quiet_don.txt",
+  "corpus_sha256": "fdf0377043c231e12ccd13d98613ecff874c6aeff3dee1e4445eb6cd05aa0d5c",
+  "config_path": "config.json",
+  "config_sha256": "ec2a6fe944113d4e67e6c2c53fce6b66e7e73c75a4baff54ce3ceb3334ac8ee4",
+  "parts_csv": "data/segmentation/parts.csv",
+  "books_csv": "data/segmentation/books.csv",
+  "melekhov_link_mode": "STRICT",
+  "include_noise_in_counts": false,
+  "count_overlapping_word_hits": false,
+  "enabled_precision_levels": [
+    "CORE",
+    "EXTENDED"
+  ],
+  "experimental_phrases_in_main_stats": false,
+  "min_perspective_confidence_main": "LOW",
+  "phrase_overlap_mode": "prefer_longest",
+  "remove_headings_from_analysis": true,
+  "markers_count": 711,
+  "phrase_markers_count": 681,
+  "core_markers_count": 442,
+  "extended_markers_count": 269,
+  "experimental_markers_count": 0,
+  "hits_total_raw": 1661,
+  "hits_counted_main": 1567
+}
