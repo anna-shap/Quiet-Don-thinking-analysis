@@ -1,0 +1,71 @@
+{
+  "project_name": "TD-MindMarkers",
+  "corpus_path": "data/corpus/quiet_don.txt",
+  "name_variants": [
+    "Григорий",
+    "Гриша",
+    "Гришка",
+    "Мелехов",
+    "Григория",
+    "Григорию",
+    "Григорием",
+    "Григории",
+    "Гришу",
+    "Грише",
+    "Гришей",
+    "Гришку",
+    "Гришке",
+    "Гришкой",
+    "Мелехова",
+    "Мелехову",
+    "Мелеховым",
+    "Мелехове"
+  ],
+  "window_sentences": 1,
+  "phrase_gap": 2,
+  "max_hits_sample": 500,
+  "encoding_fallbacks": [
+    "utf-8",
+    "utf-8-sig",
+    "cp1251"
+  ],
+  "csv_separators": [
+    ",",
+    ";",
+    "\t"
+  ],
+  "markers": {
+    "s1_csv": "data/markers/s1_markers.csv",
+    "alexandrova_txt": "data/markers/alexandrova_extract.txt",
+    "phrases_csv": "data/markers/phrases.csv",
+    "exclusions_csv": "data/markers/exclusions.csv",
+    "microthemes_csv": "data/markers/microthemes.csv"
+  },
+  "segmentation": {
+    "books_csv": "data/segmentation/books.csv",
+    "parts_csv": "data/segmentation/parts.csv"
+  },
+  "output_dir": "out_final",
+  "export_csv": true,
+  "csv_max_rows": 200000,
+  "include_noise_in_counts": false,
+  "noise_filters": {
+    "podumayesh_particle": true
+  },
+  "melekhov_link_mode": "STRICT",
+  "context_window_sentences": 1,
+  "analysis_profile": "DIPLOMA_STRICT",
+  "count_overlapping_word_hits": false,
+  "enabled_precision_levels": [
+    "CORE",
+    "EXTENDED"
+  ],
+  "experimental_phrases_in_main_stats": false,
+  "save_phrase_quality_report": true,
+  "save_run_metadata": true,
+  "remove_headings_from_analysis": true,
+  "use_existing_segmentation": true,
+  "auto_build_segmentation": false,
+  "min_perspective_confidence_main": "LOW",
+  "phrase_overlap_mode": "prefer_longest"
+}
